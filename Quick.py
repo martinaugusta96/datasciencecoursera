@@ -8,7 +8,6 @@ def quicksort(arr,low,high):
     arr[i+1],arr[high]=arr[high],arr[i+1]
     return(i+1)
 
-
 def partition(arr,low,high):
     if low<high:
         pi=partition(arr,high,low)
